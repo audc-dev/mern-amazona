@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      name: 'Nike Slime Shirt',
+      name: 'Nike Slim Shirt',
       slug: 'nike-slim-shirt',
       category: 'Shirts',
       image: '/images/p1.jpg', //679x829

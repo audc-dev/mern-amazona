@@ -1,0 +1,5 @@
+npm outdated // run to check outdated npm packages
+
+npx npm-check-updates -u // run to check updates outdated npm packages
+
+npm install // run to update npm packages
