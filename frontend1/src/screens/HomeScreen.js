@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useState } from 'react';
+import { useEffect, useReducer } from 'react';
 import { Link } from 'react-router-dom';
 //import data from '../data';
 import axios from 'axios';
@@ -37,7 +37,7 @@ function HomeScreen() {
       //setProducts(result.data);
     };
     fetchData();
-  }, []);
+  }, [error.message]);
   return (
     <div>
       <h1>Featured Products</h1>
