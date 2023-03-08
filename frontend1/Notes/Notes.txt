@@ -6,3 +6,5 @@ npm install // run to update npm packages
 
 Ctrl + C will stop the running server
 
+I couldn't install react-bootstarp, so I had to add --legacy-peer-deps to my install command to skip version dependencies.
+npm install react-bootstrap bootstrap --legacy-peer-deps
